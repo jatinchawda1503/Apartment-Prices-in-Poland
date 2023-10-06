@@ -1,0 +1,7 @@
+pandas==2.1.1
+kaggle==1.5.16
+apache-airflow[postgres,google]==2.7.1 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.1/constraints-3.8.txt"
+psycopg2-binary
+sqlalchemy
+python-decouple
+apache-airflow-providers-postgres
